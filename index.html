@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TechFlow - Soluciones tecnológicas innovadoras para empresas modernas. Desarrollo web, aplicaciones móviles y consultoría digital.">
+    <meta name="keywords" content="desarrollo web, aplicaciones móviles, tecnología, consultoría digital">
+    <meta name="author" content="TechFlow">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="TechFlow - Soluciones Tecnológicas Innovadoras">
+    <meta property="og:description" content="Transformamos ideas en soluciones digitales exitosas">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://techflow.com">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="TechFlow - Soluciones Tecnológicas">
+    <meta name="twitter:description" content="Transformamos ideas en soluciones digitales exitosas">
+    
+    <title>TechFlow - Soluciones Tecnológicas Innovadoras</title>
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="./styles.css" as="style">
+    <link rel="preload" href="./script.js" as="script">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🚀%3C/text%3E%3C/svg%3E">
+    
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main" class="skip-link">Saltar al contenido principal</a>
+    
+    <header class="header" role="banner">
+        <nav class="nav" role="navigation" aria-label="Navegación principal">
+            <div class="nav-container">
+                <div class="logo">
+                    <span class="logo-icon" aria-hidden="true">🚀</span>
+                    <span class="logo-text">TechFlow</span>
+                </div>
+                
+                <button class="menu-toggle" aria-label="Abrir menú de navegación" aria-expanded="false">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                </button>
+                
+                <ul class="nav-menu" role="menubar">
+                    <li role="none"><a href="#inicio" role="menuitem">Inicio</a></li>
+                    <li role="none"><a href="#servicios" role="menuitem">Servicios</a></li>
+                    <li role="none"><a href="#sobre-nosotros" role="menuitem">Nosotros</a></li>
+                    <li role="none"><a href="#contacto" role="menuitem">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main" role="main">
+        <!-- Hero Section -->
+        <section id="inicio" class="hero" aria-labelledby="hero-title">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 id="hero-title" class="hero-title">
+                        Transformamos Ideas en 
+                        <span class="highlight">Soluciones Digitales</span>
+                    </h1>
+                    <p class="hero-description">
+                        Desarrollamos aplicaciones web y móviles de alta calidad que impulsan el crecimiento de tu negocio con tecnología de vanguardia.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#contacto" class="btn btn-primary">Comenzar Proyecto</a>
+                        <a href="#servicios" class="btn btn-secondary">Ver Servicios</a>
+                    </div>
+                </div>
+                <div class="hero-image" aria-hidden="true">
+                    <div class="floating-card">
+                        <div class="card-header"></div>
+                        <div class="card-content">
+                            <div class="card-line"></div>
+                            <div class="card-line short"></div>
+                            <div class="card-line"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="servicios" class="services" aria-labelledby="services-title">
+            <div class="container">
+                <h2 id="services-title" class="section-title">Nuestros Servicios</h2>
+                <p class="section-description">
+                    Ofrecemos soluciones completas para todas tus necesidades tecnológicas
+                </p>
+                
+                <div class="services-grid">
+                    <article class="service-card">
+                        <div class="service-icon" aria-hidden="true">💻</div>
+                        <h3 class="service-title">Desarrollo Web</h3>
+                        <p class="service-description">
+                            Creamos sitios web modernos, rápidos y optimizados para todos los dispositivos usando las últimas tecnologías.
+                        </p>
+                        <ul class="service-features">
+                            <li>Diseño responsive</li>
+                            <li>Optimización SEO</li>
+                            <li>Alta performance</li>
+                        </ul>
+                    </article>
+                    
+                    <article class="service-card">
+                        <div class="service-icon" aria-hidden="true">📱</div>
+                        <h3 class="service-title">Apps Móviles</h3>
+                        <p class="service-description">
+                            Desarrollamos aplicaciones móviles nativas e híbridas para iOS y Android con experiencias excepcionales.
+                        </p>
+                        <ul class="service-features">
+                            <li>iOS y Android</li>
+                            <li>UI/UX intuitivo</li>
+                            <li>Integración API</li>
+                        </ul>
+                    </article>
+                    
+                    <article class="service-card">
+                        <div class="service-icon" aria-hidden="true">☁️</div>
+                        <h3 class="service-title">Soluciones Cloud</h3>
+                        <p class="service-description">
+                            Migramos y optimizamos tu infraestructura en la nube para mayor escalabilidad y seguridad.
+                        </p>
+                        <ul class="service-features">
+                            <li>AWS, Azure, GCP</li>
+                            <li>Escalabilidad automática</li>
+                            <li>Seguridad avanzada</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="sobre-nosotros" class="about" aria-labelledby="about-title">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2 id="about-title" class="section-title">¿Por qué elegir TechFlow?</h2>
+                        <p class="about-description">
+                            Con más de 5 años de experiencia, hemos ayudado a más de 100 empresas a digitalizar sus procesos y alcanzar sus objetivos tecnológicos.
+                        </p>
+                        
+                        <div class="stats">
+                            <div class="stat">
+                                <div class="stat-number">100+</div>
+                                <div class="stat-label">Proyectos Completados</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-number">98%</div>
+                                <div class="stat-label">Satisfacción Cliente</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-number">24/7</div>
+                                <div class="stat-label">Soporte Técnico</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-features">
+                        <div class="feature">
+                            <div class="feature-icon" aria-hidden="true">⚡</div>
+                            <div class="feature-content">
+                                <h3 class="feature-title">Desarrollo Ágil</h3>
+                                <p class="feature-description">Metodologías ágiles para entregas rápidas y eficientes</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature">
+                            <div class="feature-icon" aria-hidden="true">🔒</div>
+                            <div class="feature-content">
+                                <h3 class="feature-title">Seguridad Garantizada</h3>
+                                <p class="feature-description">Implementamos las mejores prácticas de seguridad</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature">
+                            <div class="feature-icon" aria-hidden="true">🎯</div>
+                            <div class="feature-content">
+                                <h3 class="feature-title">Enfoque Personalizado</h3>
+                                <p class="feature-description">Soluciones adaptadas a tus necesidades específicas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contacto" class="contact" aria-labelledby="contact-title">
+            <div class="container">
+                <h2 id="contact-title" class="section-title">¿Listo para comenzar?</h2>
+                <p class="section-description">
+                    Contáctanos hoy y descubre cómo podemos ayudarte a alcanzar tus objetivos digitales
+                </p>
+                
+                <div class="contact-content">
+                    <form class="contact-form" aria-label="Formulario de contacto">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Nombre completo</label>
+                            <input type="text" id="name" name="name" class="form-input" required aria-describedby="name-error">
+                            <span id="name-error" class="error-message" role="alert"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Correo electrónico</label>
+                            <input type="email" id="email" name="email" class="form-input" required aria-describedby="email-error">
+                            <span id="email-error" class="error-message" role="alert"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company" class="form-label">Empresa</label>
+                            <input type="text" id="company" name="company" class="form-input">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Mensaje</label>
+                            <textarea id="message" name="message" class="form-textarea" rows="5" required aria-describedby="message-error"></textarea>
+                            <span id="message-error" class="error-message" role="alert"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">Enviar Mensaje</button>
+                    </form>
+                    
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon" aria-hidden="true">📧</div>
+                            <div class="contact-details">
+                                <h3 class="contact-title">Email</h3>
+                                <a href="mailto:hola@techflow.com" class="contact-link">hola@techflow.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon" aria-hidden="true">📞</div>
+                            <div class="contact-details">
+                                <h3 class="contact-title">Teléfono</h3>
+                                <a href="tel:+34900123456" class="contact-link">+34 900 123 456</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon" aria-hidden="true">📍</div>
+                            <div class="contact-details">
+                                <h3 class="contact-title">Ubicación</h3>
+                                <p class="contact-text">Madrid, España</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-icon" aria-hidden="true">🚀</span>
+                        <span class="logo-text">TechFlow</span>
+                    </div>
+                    <p class="footer-description">
+                        Transformando el futuro digital, un proyecto a la vez.
+                    </p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3 class="footer-title">Servicios</h3>
+                        <ul class="footer-list">
+                            <li><a href="#servicios" class="footer-link">Desarrollo Web</a></li>
+                            <li><a href="#servicios" class="footer-link">Apps Móviles</a></li>
+                            <li><a href="#servicios" class="footer-link">Soluciones Cloud</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h3 class="footer-title">Empresa</h3>
+                        <ul class="footer-list">
+                            <li><a href="#sobre-nosotros" class="footer-link">Sobre Nosotros</a></li>
+                            <li><a href="#contacto" class="footer-link">Contacto</a></li>
+                            <li><a href="#" class="footer-link">Blog</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h3 class="footer-title">Legal</h3>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">Privacidad</a></li>
+                            <li><a href="#" class="footer-link">Términos</a></li>
+                            <li><a href="#" class="footer-link">Cookies</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="footer-copyright">
+                    © 2024 TechFlow. Todos los derechos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
