@@ -1,0 +1,23 @@
+{
+  "name": "pruebas-lighthouse",
+  "version": "1.0.0",
+  "description": "Lighthouse testing website with CI/CD integration",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve . -p 3000",
+    "build": "mkdir -p dist && cp -r * dist/ 2>/dev/null || true",
+    "start": "npx serve . -p 3000",
+    "preview": "npx serve dist -p 4173"
+  },
+  "keywords": [
+    "lighthouse",
+    "performance",
+    "web",
+    "testing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
